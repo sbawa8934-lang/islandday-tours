@@ -42,3 +42,4 @@ Thumbs.db
 # Local env files
 .env.local
 .env.*.local
+.claude/
