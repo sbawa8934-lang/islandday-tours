@@ -27,7 +27,7 @@ export default function StoriesPage() {
         {POSTS.length > 0 && (
           <div className="featured-post">
             <Image
-              src={POSTS[0].image || `/images/blog/post-${POSTS[0].id || 1}.svg`}
+              src={POSTS[0].image || `/images/blog/post-${POSTS[0].id || 1}.png`}
               alt={POSTS[0].title}
               width={600}
               height={400}
@@ -53,7 +53,7 @@ export default function StoriesPage() {
             {POSTS.slice(1).map((post, idx) => (
               <article key={idx} className="post">
                 <Image
-                  src={post.image || `/images/blog/post-${post.id || idx + 2}.svg`}
+                  src={post.image || `/images/blog/post-${post.id || idx + 2}.png`}
                   alt={post.title}
                   width={400}
                   height={220}

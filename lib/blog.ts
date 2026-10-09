@@ -9,7 +9,7 @@ export const POSTS: BlogPost[] = [
     date: 'Sep 2026',
     g: 0,
     description: 'A detailed breakdown of costs, what you get, and whether it\'s worth your time and money. Includes comparison with other activities.',
-    image: '/images/blog/post-1.svg'
+    image: '/images/blog/post-1.png'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const POSTS: BlogPost[] = [
     date: 'Sep 2026',
     g: 1,
     description: 'Real photos and honest details about the climb difficulty, views, and what to expect. Plus tips for making it easier.',
-    image: '/images/blog/post-2.svg'
+    image: '/images/blog/post-2.png'
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const POSTS: BlogPost[] = [
     date: 'Aug 2026',
     g: 2,
     description: 'Complete packing list for full-day marine park tours. Don\'t forget these 12 essentials.',
-    image: '/images/blog/post-3.svg'
+    image: '/images/blog/post-3.png'
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const POSTS: BlogPost[] = [
     date: 'Aug 2026',
     g: 3,
     description: 'Side-by-side comparison of boat types. Speed, comfort, seasickness risk, and cost breakdown.',
-    image: '/images/blog/post-4.svg'
+    image: '/images/blog/post-4.png'
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const POSTS: BlogPost[] = [
     date: 'Jul 2026',
     g: 4,
     description: 'Weather patterns, tourist season, pricing, and water conditions month by month.',
-    image: '/images/blog/post-5.svg'
+    image: '/images/blog/post-5.png'
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const POSTS: BlogPost[] = [
     date: 'Jul 2026',
     g: 5,
     description: 'Photos and descriptions of the most popular snorkelling sites. Fish species you\'ll see.',
-    image: '/images/blog/post-6.svg'
+    image: '/images/blog/post-6.png'
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const POSTS: BlogPost[] = [
     date: 'Jun 2026',
     g: 0,
     description: 'Age-appropriate tips, what kids love, seasickness prevention, and best boat types for families.',
-    image: '/images/blog/post-7.svg'
+    image: '/images/blog/post-7.png'
   },
   {
     id: 8,
@@ -79,6 +79,6 @@ export const POSTS: BlogPost[] = [
     date: 'Jun 2026',
     g: 1,
     description: 'Guide to 20+ marine species. Photography tips and responsible wildlife observation.',
-    image: '/images/blog/post-8.svg'
+    image: '/images/blog/post-8.png'
   }
 ];

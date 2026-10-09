@@ -15,7 +15,7 @@ export function TourCard({ tour, currency }: TourCardProps) {
     <article className="card" data-slug={tour.slug}>
       <div className={`card__media`}>
         <Image
-          src={`/images/tours/tour-${tour.g + 1}.svg`}
+          src={`/images/tours/tour-${tour.g + 1}.png`}
           alt={tour.title}
           width={400}
           height={300}
