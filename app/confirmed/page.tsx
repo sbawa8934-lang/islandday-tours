@@ -1,10 +1,15 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Icon } from '@/components/icons';
 
 export default function ConfirmedPage() {
-  const bookingRef = 'ID-' + Math.random().toString(36).substr(2, 9).toUpperCase();
+  const [bookingRef, setBookingRef] = useState('');
+
+  useEffect(() => {
+    setBookingRef('ID-' + Math.random().toString(36).substring(2, 11).toUpperCase());
+  }, []);
 
   return (
     <main>

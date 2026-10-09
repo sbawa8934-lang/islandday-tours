@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Tour } from '@/lib/types';
 import { formatMoney } from '@/lib/format';
@@ -12,8 +13,14 @@ interface TourCardProps {
 export function TourCard({ tour, currency }: TourCardProps) {
   return (
     <article className="card" data-slug={tour.slug}>
-      <div className={`card__media ph g-${tour.g}`}>
-        <Icon name="image" className="ph__icon" />
+      <div className={`card__media`}>
+        <Image
+          src={`/images/tours/tour-${tour.g + 1}.svg`}
+          alt={tour.title}
+          width={400}
+          height={300}
+          style={{ width: '100%', height: 'auto' }}
+        />
         {tour.badge && <span className="badge">{tour.badge}</span>}
         <button className="save-btn" data-save={tour.slug} aria-label={`Save ${tour.title}`}>
           <Icon name="heart" size={16} />

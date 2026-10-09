@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { POSTS } from '@/lib/blog';
 import { Icon } from '@/components/icons';
@@ -25,7 +26,13 @@ export default function StoriesPage() {
       <div className="container" style={{ paddingTop: 40, paddingBottom: 96 }}>
         {POSTS.length > 0 && (
           <div className="featured-post">
-            <div className={`ph g-${POSTS[0].g}`}></div>
+            <Image
+              src={POSTS[0].image || `/images/blog/post-${POSTS[0].id || 1}.svg`}
+              alt={POSTS[0].title}
+              width={600}
+              height={400}
+              style={{ width: '100%', height: 'auto', borderRadius: 12 }}
+            />
             <div className="featured-post__body">
               <span className="overline">{POSTS[0].category}</span>
               <h2 className="h2">{POSTS[0].title}</h2>
@@ -45,7 +52,13 @@ export default function StoriesPage() {
           <div className="grid grid-3">
             {POSTS.slice(1).map((post, idx) => (
               <article key={idx} className="post">
-                <div className={`ph g-${post.g}`} style={{ height: 220, borderRadius: 12 }}></div>
+                <Image
+                  src={post.image || `/images/blog/post-${post.id || idx + 2}.svg`}
+                  alt={post.title}
+                  width={400}
+                  height={220}
+                  style={{ width: '100%', height: 220, objectFit: 'cover', borderRadius: 12 }}
+                />
                 <div className="post__meta">
                   <span>{post.category}</span>
                   <span>{post.readTime} min</span>
