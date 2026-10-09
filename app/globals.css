@@ -175,7 +175,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .page-head p{max-width:720px;color:var(--text-secondary);font-size:18px;line-height:30px}
 
 /* ---------- Hero ---------- */
-.hero{position:relative;min-height:640px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(5,26,33,.88) 0%,rgba(5,26,33,.35) 65%,rgba(5,26,33,.1) 100%),linear-gradient(135deg,#0B3A47,#1BA3A6)}
+.hero{position:relative;min-height:640px;display:flex;align-items:center;color:#fff;background-image:url('/images/hero-bg.png'),linear-gradient(90deg,rgba(5,26,33,.88) 0%,rgba(5,26,33,.35) 65%,rgba(5,26,33,.1) 100%),linear-gradient(135deg,#0B3A47,#1BA3A6);background-size:cover;background-position:center}
 .hero__content{display:flex;flex-direction:column;gap:28px;max-width:760px;padding:80px 0}
 .hero__pill{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:8px 14px;border-radius:var(--pill);background:rgba(255,255,255,.16);font-size:14px;font-weight:500}
 .hero p{max-width:600px;font-size:18px;line-height:30px;opacity:.95}
