@@ -45,11 +45,14 @@ export interface Review {
 }
 
 export interface BlogPost {
+  id?: number;
   title: string;
   category: string;
   readTime: string;
   date: string;
   g: number;
+  description?: string;
+  image?: string;
 }
 
 export interface SiteConfig {
