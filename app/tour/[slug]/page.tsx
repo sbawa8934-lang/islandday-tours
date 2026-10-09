@@ -78,11 +78,11 @@ export default async function TourDetailPage({ params }: TourDetailPageProps) {
         </div>
 
         <div className="gallery">
-          {[0, 1, 2, 3, 4].map(i => (
-            <div key={i} className={`ph g-${i}`} role="button" tabIndex={0} aria-label={`Open photo ${i + 1}`}>
-              <Icon name="image" className="ph__icon" />
-              {i === 0 && <span className="gallery__video"><Icon name="play" size={14} fill />Video</span>}
-              {i === 4 && <span className="gallery__all"><Icon name="image" size={14} />View all 16 photos</span>}
+          {[1, 2, 3, 4, 5].map(i => (
+            <div key={i} className="gallery__item" role="button" tabIndex={0} aria-label={`Open photo ${i}`}>
+              <img src={`/images/gallery-${i}.png`} alt={`${tour.title} - Photo ${i}`} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              {i === 1 && <span className="gallery__video"><Icon name="play" size={14} fill />Video</span>}
+              {i === 5 && <span className="gallery__all"><Icon name="image" size={14} />View all 16 photos</span>}
             </div>
           ))}
         </div>

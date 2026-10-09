@@ -179,9 +179,7 @@ export default function Home() {
           <div className="grid grid-4">
             {GUIDE_CARDS.map((card, idx) => (
               <Link key={idx} href="/guide" className="guide-card">
-                <div className={`ph g-${idx % 6}`}>
-                  <Icon name="image" className="ph__icon" />
-                </div>
+                <img src={`/images/guide-${idx + 1}.png`} alt={card.title} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', borderRadius: 'var(--r-lg)' }} />
                 <span className="guide-card__title">{card.title}<Icon name="arrowR" size={18} className="brand" /></span>
               </Link>
             ))}
