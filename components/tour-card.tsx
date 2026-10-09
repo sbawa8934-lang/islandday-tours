@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import type { Tour } from '@/lib/types';
 import { formatMoney } from '@/lib/format';
@@ -14,12 +13,10 @@ export function TourCard({ tour, currency }: TourCardProps) {
   return (
     <article className="card" data-slug={tour.slug}>
       <div className={`card__media`}>
-        <Image
+        <img
           src={`/images/tours/tour-${tour.g + 1}.png`}
           alt={tour.title}
-          width={400}
-          height={300}
-          style={{ width: '100%', height: 'auto' }}
+          style={{ width: '100%', height: 'auto', display: 'block' }}
         />
         {tour.badge && <span className="badge">{tour.badge}</span>}
         <button className="save-btn" data-save={tour.slug} aria-label={`Save ${tour.title}`}>
