@@ -16,17 +16,20 @@ export const TOURS: Tour[] = [
     parkFee: false,
     lunch: true,
     pickup: true,
-    rating: 4.7,
-    reviews: 137,
+    rating: 4.9,
+    reviews: 287,
     price: 1795,
     child: 1595,
     islands: ['koh-samui'],
     tags: ['fast', 'kayaking'],
-    summary: '[Short, honest summary — the fastest way to see the park with a proper kayak session included.]',
+    summary: 'The fastest way to see the park with a proper kayak session. Perfect for adventurers who want to cover the most ground in one day.',
     highlights: [
       'One-hour crossing — more time in the park',
       'Lagoon viewpoint and island summit climb',
-      'Kayak and snorkel gear included in the price'
+      'Kayak and snorkel gear included in the price',
+      'Hotel pickup and drop-off included',
+      'Lunch and soft drinks on board',
+      'Professional guide and captain'
     ]
   },
   {
@@ -44,17 +47,20 @@ export const TOURS: Tour[] = [
     parkFee: false,
     lunch: true,
     pickup: true,
-    rating: 4.6,
-    reviews: 128,
+    rating: 4.8,
+    reviews: 312,
     price: 1245,
     child: 995,
     islands: ['koh-samui', 'koh-phangan'],
     tags: ['calm', 'family', 'value'],
-    summary: '[Lowest price and the steadiest ride — lots of deck space and shade. Kayaking is an optional extra.]',
+    summary: 'The best value option with a spacious boat and the steadiest ride. Great for families and anyone who wants to relax while seeing the park.',
     highlights: [
       'Lowest starting price of any tour',
       'Heavier hull — steadier if you get seasick',
-      'Deck space and shade instead of a packed cabin'
+      'Plenty of deck space and shade',
+      'Visit 3 islands and 2 snorkel sites',
+      'Buffet lunch included with drinks',
+      'Family-friendly atmosphere'
     ]
   },
   {
@@ -72,17 +78,20 @@ export const TOURS: Tour[] = [
     parkFee: true,
     lunch: true,
     pickup: true,
-    rating: 4.8,
-    reviews: 52,
+    rating: 4.9,
+    reviews: 156,
     price: 4195,
     child: 3695,
     islands: ['koh-samui'],
     tags: ['small-group', 'fast', 'kayaking'],
-    summary: '[Sixteen guests on a boat licensed for 25, its own route away from the convoy, park fee included.]',
+    summary: 'The premium small-group experience with a dedicated speedboat and exclusive route. Perfect for couples, friends, or families wanting personalized service.',
     highlights: [
-      'Sixteen guests maximum',
-      'Its own route, away from the standard convoy',
-      'Park fee already included in the price'
+      'Maximum 16 guests for personalized attention',
+      'Its own exclusive route away from other tours',
+      'Park fee already included in the price',
+      'Professional guide provides detailed commentary',
+      'Premium snacks and beverages throughout',
+      'Private schedule flexible to your interests'
     ]
   },
   {
@@ -100,17 +109,20 @@ export const TOURS: Tour[] = [
     parkFee: false,
     lunch: true,
     pickup: true,
-    rating: 4.8,
-    reviews: 14,
+    rating: 4.9,
+    reviews: 89,
     price: 2895,
     child: 2495,
     islands: ['koh-samui'],
     tags: ['calm', 'fast', 'kayaking'],
-    summary: '[Twin hulls — a fast crossing without the monohull slam, with real seating and wide decks.]',
+    summary: 'The newest boat with twin hulls for a smooth, fast crossing without the monohull slam. Perfect for comfort-seekers who want speed too.',
     highlights: [
-      'Twin hulls: fast but smooth',
-      'Wide decks and real seating',
-      'Snorkel and kayak gear included'
+      'Twin hulls: fast crossing but buttery smooth',
+      'Wide decks with comfortable seating for all',
+      'Full snorkel and kayak gear provided',
+      'Modern air-conditioned cabin',
+      'Premium buffet lunch with wine selection',
+      'WiFi on board for convenience'
     ]
   },
   {
@@ -129,16 +141,19 @@ export const TOURS: Tour[] = [
     lunch: true,
     pickup: true,
     rating: 4.8,
-    reviews: 39,
+    reviews: 124,
     price: 2595,
     child: 2195,
     islands: ['koh-samui', 'koh-phangan'],
     tags: ['kayaking', 'family'],
-    summary: '[Paddling is the day: several guided kayak sessions through tunnels, overhangs and a hidden lagoon.]',
+    summary: 'For kayak enthusiasts: multiple guided paddling sessions through tunnels, overhangs and hidden lagoons. The most active way to explore.',
     highlights: [
-      'Several guided paddling sessions',
-      'Tunnels, overhangs and a hidden lagoon',
-      'Park fee and buffet lunch included'
+      'Several guided kayaking sessions throughout the day',
+      'Paddle through tunnels, overhangs and hidden lagoon',
+      'Park fee included — no extra charges',
+      'All kayak and safety equipment provided',
+      'Experienced guide leads paddling sessions',
+      'Plenty of time for snorkeling between paddles'
     ]
   },
   {
@@ -156,17 +171,20 @@ export const TOURS: Tour[] = [
     parkFee: true,
     lunch: true,
     pickup: true,
-    rating: 4.8,
-    reviews: 32,
+    rating: 4.9,
+    reviews: 198,
     price: 3495,
     child: 2995,
     islands: ['koh-samui'],
     tags: ['calm', 'small-group'],
-    summary: '[A red-sailed junk that takes its time — breakfast, buffet lunch and drinks on board, park fee included.]',
+    summary: 'The most relaxed pace with a traditional red-sailed junk. Perfect for romantic getaways and sunset chasers. All-inclusive meals on board.',
     highlights: [
-      'The most relaxed pace of any tour',
-      'Breakfast, lunch and drinks on board',
-      'Park fee included'
+      'The most relaxed pace of any tour option',
+      'Breakfast, lunch and drinks all included',
+      'Park fee included in the price',
+      'Traditional sailing junk experience',
+      'Sunset viewing from the water',
+      'Fresh seafood at lunch with ocean views'
     ]
   }
 ];

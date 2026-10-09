@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0E4D5C;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1BA3A6;stop-opacity:1" />
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a085;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#138d75;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="400" height="300" fill="url(#grad6)"/>
-  <circle cx="100" cy="100" r="50" fill="rgba(255,255,255,0.2)"/>
-  <circle cx="300" cy="200" r="70" fill="rgba(255,255,255,0.15)"/>
-  <text x="200" y="150" font-size="24" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">Tour 6</text>
+  <rect width="400" height="300" fill="url(#g6)"/>
+  <text x="200" y="140" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">🎣 Fishing Adventure</text>
+  <text x="200" y="165" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle" font-family="Arial">Catch Your Lunch</text>
+  <text x="200" y="280" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-family="Arial">⭐ 4.6 • THB 2,890</text>
 </svg>
